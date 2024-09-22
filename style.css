@@ -1,0 +1,165 @@
+body{
+    background-color:blue;
+}
+
+.Even{
+    color:blueviolet;
+    background-color:chartreuse;
+
+}
+
+ ul[class="Star"] li::before{
+    content: "*";
+    color: red;
+    font-size: 25px;
+}
+
+
+ul[class="lastchild"] li:nth-last-child(2){
+    color: red;
+    font-size: 25px;
+}
+
+.checkout{
+    color:rgb(222, 43, 43);
+   
+}
+
+.Odd{
+    color:blueviolet;
+    background-color: yellowgreen;
+}
+
+ul[class=semantictags] li{
+    color:aqua;
+    font-size: 25px;
+}
+
+.globalatt{
+color: blueviolet;
+font-size: 25px;
+}
+
+
+div ~ p{
+    color: red;
+    font-size: 30px;
+}
+
+div p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+.Evenodd{
+    color: brown;
+    background-color: greenyellow;
+}
+
+.Flexbox{
+    display: flex;
+    gap: 10px;
+}
+ 
+
+
+.item{
+    padding: 10px;
+    border: 2px solid sienna;
+    background-color: aquamarine;
+}
+
+.Gridcolumn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:60px 60px 60px;
+    gap: 10px;
+    
+}
+
+.Grid2{
+    padding: 10px;
+    border: 2px solid brown;
+    color:red;
+    font-size: 40px;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.Desc1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Desc{
+background-color: forestgreen;
+padding: 10px;
+border: 1px solid red;
+color: floralwhite;
+}
+
+.Last{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+
+.Dot{
+   
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr ;
+    grid-template-rows: 50px 50px 50px;
+    gap: 10px;
+    font-size: 25px;
+    
+}
+
+.occupy1{
+    grid-column:1/2 ;
+    color: floralwhite;
+    background-color: brown;
+    padding: 10px;
+    border: 1px solid black;
+
+
+}
+
+.occupy2{
+    padding: 10px;
+    color: floralwhite;
+background-color: brown;
+padding: 10px;
+border: 1px solid black;
+
+    }
+
+    .occupy3{
+ 
+        padding: 10px;
+        color: floralwhite;
+        background-color: brown;
+        padding: 10px;
+        border: 1px solid black;
+        
+        }
+
+
+.Center1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.item4{
+    padding: 10px;
+    color:cornsilk;
+    background-color:maroon;
+    border: 1px solid goldenrod;
+
+}
